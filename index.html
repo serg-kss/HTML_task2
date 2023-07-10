@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="preload" href="./fonts/gilroyextrabold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./fonts/gilroylight.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./fonts/opensans.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./fonts/opensanslight.woff2" as="font" type="font/woff2" crossorigin>
     <title>Document</title>
 </head>
 <body>
-    
+    <header class="header">
+        <section class="logo">
+            <a class="logo__link" href="#">DEVICE</a>
+        </section>
+        <section class="navigation">
+            <form class="navigation__left">
+                <input class="search__input" type="text" name="" id="search" placeholder="Поиск по сайту">
+                <label class="search__lable" for="search">
+                    <img class="search__img" src="./asset/search-svg.png" alt="search">
+                </label>
+                <button class="search__btn" type="submit">Найти</button>
+            </form>
+            <section class="navigation__right">
+                <section class="login">
+                    <img class="login__picture" src="" alt="">
+                    <button class="login__btn">Войти</button>
+                </section>
+                <section class="navigation__container">
+                    <section class="compare">
+                        <img class="compare__img" src="./asset/compare-svg.png" alt="diagramma">
+                        <a class="compare__link" href="#">Сравнить</a>
+                    </section>
+                    <section class="card">
+                        <img class="card__img" src="./asset/cart-svg.png" alt="card">
+                        <a class="card__link" href="#">Корзина</a>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </header>
+    <section class="content"></section>
+    <footer class="footer"></footer>
 </body>
 </html>
