@@ -1,6 +1,12 @@
 
 
 /*----------header start--------*/
+.hd {
+    width: 1160px;
+    height: 785px; 
+    position: relative;
+}
+
 .header {
     width: 1160px;
     margin-top: 40px;
@@ -323,6 +329,9 @@
     flex-grow: 0.5;
     justify-content: space-between;
     padding-top: 40px;
+    position: relative;
+    z-index:99999999; 
+    background-color: #f0c52e;
 }
 
 .menu {
@@ -336,6 +345,9 @@
     flex-grow: 0.5;
     justify-content: space-between;
     padding-top: 40px;
+    position: relative;
+    z-index:99999999; 
+    background-color: #f0c52e;  
 }
 
 .menu__ul1, .menu__ul2, .menu__ul3 li {
@@ -367,6 +379,7 @@
     justify-content: center;
     height: 311px;
     background-color: #464646;
+    position: relative;
 }
 
 .footer__top {
@@ -550,3 +563,21 @@
     opacity: .3;
 }
 /*----------footer end--------*/
+
+/*----------сontent start--------*/
+
+.slider {
+    width: 1070px;
+    height: 449px;
+    margin-left: 31px;
+    margin-right: 59px;
+    background-color: aqua;
+    position: absolute;
+    left: 140px;
+    top: 228px;
+    z-index: 10;
+}
+
+
+
+/*----------content end--------*/
