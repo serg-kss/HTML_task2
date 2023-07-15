@@ -7,6 +7,77 @@
     <title>Catalog</title>
 </head>
 <body>
-    
+    <header class="header">
+        <section class="logo">
+            <a class="logo__link" href="./index.html"><img src="./asset/logo.png" alt=""></a>
+        </section>
+        <section class="navigation">
+            <form class="navigation__left">
+                <input class="search__input" type="text" name="" id="search" placeholder="Поиск по сайту">
+                <label class="search__lable" for="search">
+                    <img class="search__img" src="./asset/search-svg.png" alt="search">
+                </label>
+                <button class="search__btn" type="submit"><span>Найти</span></button>
+            </form>
+            <section class="navigation__right">
+                <section class="login">
+                    <a class="login__link" href="#">Петр Чех</a>
+                    <a class="login__btn" href="#">Выйти</a>
+                </section>   
+                <a class="compare__link" href="#">Сравнить</a>   
+                <a class="cart__link" href="#">Корзина</a>
+            </section>
+        </section>
+        <section class="bar">
+            <ul class="bar__ul1">
+                <li class="bar__li1">
+                    <a href="#" class="bar__link" for="bar">Каталог товаров</a>
+                    <section class="menu">
+                        <ul class="menu__ul1">
+                            <li><a class="menu__link" href="#">Виртуальная реальность</a></li>
+                            <li><a class="menu__link" href="#">Моноподы для селфи</a></li>
+                            <li><a class="menu__link" href="#">Экшин-камеры</a></li>
+                        </ul>
+                        <ul class="menu__ul2">
+                            <li><a class="menu__link" href="#">Фитнес-браслеты</a></li>
+                            <li><a class="menu__link" href="#">Умные часы</a></li>
+                        </ul>
+                        <ul class="menu__ul3">
+                            <li><a class="menu__link" href="#">Квадрокоптеры</a></li>
+                        </ul>
+                    </section>
+                </li>
+            </ul>
+            <ul class="bar__ul2">
+                <li class="bar__li2"><a class="bar__links" href="#">Доставка</a></li>
+                <li class="bar__li3"><a class="bar__links" href="#">Гарантия</a></li>
+                <li class="bar__li4"><a class="bar__links" href="#">Контакты</a></li>
+            </ul>
+        </section>
+    </header>
+    <section class="content">
+        <section class="head">
+            <p class="head__text">Моноподы для селфи</p>
+            <ul class="head__ul">
+                <li class="head__li"><a href="#">Главная</a></li>
+                <li class="head__li"><a href="#">Каталог товаров</a></li>
+                <li class="head__li"><a href="#">Моноподы для селфи</a></li>
+            </ul>
+        </section>
+        <section class="filter">
+            <section class="filter__container">
+                <p class="filter__text">Сортировка:</p>
+                <ul class="filter__ul">
+                    <li class="filter__li"><a href="#">По цене</a></li>
+                    <li class="filter__li"><a href="#">По типу</a></li>
+                    <li class="filter__li"><a href="#">По популярности</a></li>
+                </ul>
+            </section>
+            <section class="filter__containerImg">
+                <img src="./asset/icon-up.png" alt="up">
+                <img src="./asset/icon-down.png" alt="down">
+            </section>
+        </section>
+    </section>
 </body>
 </html>
