@@ -750,6 +750,11 @@ input:checked + .slider__lable::after{
     font-family: "Gilroy";
 }
 
+.brands--position {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
 .brands__picture {
     width: 260px;
     height: 100px;
@@ -881,8 +886,104 @@ input:checked + .slider__lable::after{
     bottom: 90px;
 }
 
+.info {
+    width: 1160px;
+    margin-top: 40px;
+    margin-left: 140px;
+    margin-right: 140px;
+    display: flex;
+    margin-bottom: 100px;
+}
 
+.info__aboutUs, .info__contacts {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.5;
+    padding-left: 0;
+}
 
+.info__aboutUs li, .info__contacts li {
+    list-style-type: none;
+}
 
+.info__text {
+    font-size: 47px;
+    letter-spacing: 0px;
+    line-height: 48px;
+    color: #000000;
+    font-weight: 800;
+    font-family: "Gilroy";
+    position: relative;
+    
+}
+
+.info__text::before {
+    content: " ";
+    width: 80px;
+    height: 7px;
+    background-color: #000000;
+    position: absolute;
+    bottom: 100px;
+}
+
+.info__text1 {
+    margin-top: 20px;
+    width: 562px;
+    height: 88px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #464646;
+    font-weight: 300;
+    font-family: "Open Sans";
+}
+
+.aboutUs__ul {
+    margin-top: 20px;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutUs__li {
+    list-style-type: none;
+    margin-top: 15px;
+    font-weight: 700;
+    position: relative;
+}
+
+.aboutUs__li::before {
+    content: " ";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px;
+    border-color: grey;
+    background-color: white;
+}
+
+.info__li--map {
+    margin-top: 20px;
+}
+
+.info__li--link {
+    margin-top: 83px;
+    background-color: #f0c52e;
+    width: 260px;
+    height: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info__link {
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 4px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 800;
+    font-family: "Gilroy";
+}
 
 /*----------content end--------*/
