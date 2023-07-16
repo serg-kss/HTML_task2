@@ -78,6 +78,64 @@
                 <img src="./asset/icon-down.png" alt="down">
             </section>
         </section>
+        <section class="main">
+            <form class="main__form">
+                <p class="filter__text filter__text--position">Фильтр:</p>
+                <p class="form__text form__text--position">Стоимость:</p>
+                <section class="amount">
+                    <section class="amount__dots">
+                        <div class="pointer"></div>
+                        <div class="line"></div>
+                        <div class="pointer"></div>
+                    </section>
+                    <section class="amount__text">
+                        <label class="amount__lable" for="number1">от</label>
+                        <input class="amount__input" type="number" name="number" id="number1" placeholder="0">
+                        <label class="amount__lable amount__lable--position" for="number2">до</label>
+                        <input class="amount__input" type="number" name="number" id="number2" placeholder="5000">
+                    <section>
+                </section>
+                </section>
+                <section class="form__container">
+                    <p class="form__text">Цвет:</p>
+                    <section class="colors">
+                        <fieldset>
+                            <input type="checkbox" name="checkbox" id="checkbox1">
+                            <label class="form__lable form__lable--checkbox" for="checkbox1">Черный</label>
+                        </fieldset>
+                        <fieldset>
+                            <input type="checkbox" name="checkbox" id="checkbox2">
+                            <label class="form__lable form__lable--checkbox" for="checkbox2">Белый</label>
+                        </fieldset>
+                        <fieldset>
+                            <input type="checkbox" name="checkbox" id="checkbox3">
+                            <label class="form__lable form__lable--checkbox" for="checkbox3">Синий</label>
+                        </fieldset>
+                        <fieldset>
+                            <input type="checkbox" name="checkbox" id="checkbox4">
+                            <label class="form__lable form__lable--checkbox" for="checkbox4">Красный</label>
+                        </fieldset>
+                        <fieldset>
+                            <input type="checkbox" name="checkbox" id="checkbox5">
+                            <label class="form__lable form__lable--checkbox" for="checkbox5">Розовый</label>
+                        </fieldset>
+                    </section>
+                    <p class="form__text">Bluetooth</p>
+                    <section class="bluetooth">
+                        <fieldset>
+                            <input type="radio" name="radio" id="radio1">
+                            <label class="form__lable form__lable--radio" for="radio1">Есть</label>
+                        </fieldset>
+                        <fieldset>
+                            <input type="radio" name="radio" id="radio2">
+                            <label class="form__lable form__lable--radio" for="radio2">Нет</label>
+                        </fieldset>
+                    </section>
+                </section>
+                <button class="form__btn" type="submit">Показать</button>
+            </form>
+            <section class="cards"></section>
+        </section>
     </section>
 </body>
 </html>
