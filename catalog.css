@@ -526,7 +526,9 @@
 }
 
 .main {
+    width: 1410px;
     display: flex;
+    
 }
 
 /*------------ content form ------------*/
@@ -753,3 +755,30 @@ input[name=radio]:checked ~ .form__lable--radio:hover,
 }
 
 /*------------ content form  end ------------*/
+
+/*------------ cards start ------------*/
+
+.cards {
+    width: 940px;
+    display: flex;
+}
+
+.cards__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 360px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
