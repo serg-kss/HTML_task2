@@ -30,119 +30,127 @@
             </section>
         </section>
         <section class="bar">
-            <ul class="bar__ul1">
-                <li class="bar__li1">
+            <ul class="bar__array">
+                <li class="bar__catalogue">
                     <a href="#" class="bar__link" for="bar">Каталог товаров</a>
                     <section class="menu">
-                        <ul class="menu__ul1">
+                        <ul class="menu__array menu__array--position">
                             <li><a class="menu__link" href="#">Виртуальная реальность</a></li>
                             <li><a class="menu__link" href="./catalog.html">Моноподы для селфи</a></li>
                             <li><a class="menu__link" href="#">Экшин-камеры</a></li>
                         </ul>
-                        <ul class="menu__ul2">
+                        <ul class="menu__array">
                             <li><a class="menu__link" href="#">Фитнес-браслеты</a></li>
                             <li><a class="menu__link" href="#">Умные часы</a></li>
                         </ul>
-                        <ul class="menu__ul3">
+                        <ul class="menu__array">
                             <li><a class="menu__link" href="#">Квадрокоптеры</a></li>
                         </ul>
                     </section>
                 </li>
             </ul>
-            <ul class="bar__ul2">
-                <li class="bar__li2"><a class="bar__links" href="#">Доставка</a></li>
-                <li class="bar__li3"><a class="bar__links" href="#">Гарантия</a></li>
-                <li class="bar__li4"><a class="bar__links" href="#">Контакты</a></li>
+            <ul class="bar__array">
+                <li class="bar__delivery"><a class="bar__links" href="#">Доставка</a></li>
+                <li class="bar__guarantee"><a class="bar__links" href="#">Гарантия</a></li>
+                <li class="bar__contacts"><a class="bar__links" href="#">Контакты</a></li>
             </ul>
         </section>
     </header>
     <section class="content">
         <section class="slider">
-            <input type="radio" name="radio" id="r1">
+            <input type="radio" name="radio" id="r1" checked>
             <label class="slider__lable" for="r1"></label>
             <section class="slider__slide">
-                <img class="slider__img" src="./asset/slider-1.png.png" alt="slide1">
-                <section id="sl1" class="slider__right">
-                    <p class="slider__text1">Делай селфи,<br>как Бен Стиллер!</p>
-                    <p class="slider__text2">
+                <img class="slider__img" src="./asset/slider-1.png.png" alt="slide1" style="width: 384px; height: 486px;">
+                <section class="slider__right">
+                    <p class="slider__title">Делай селфи,<br>как Бен Стиллер!</p>
+                    <p class="slider__info">
                         Самая длинная палка для селфи доступна в нашем магазине.
                         Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
                     </p>
                     <a class="slider__link" href="#">Подробнее</a>
-                    <ul class="slider__ul1">
-                        <li>8,5 м</li>
-                        <li>5 кг</li>
-                        <li>Карбон</li>
-                    </ul>
-                    <ul class="slider__ul2">
-                        <li>Длина палки</li>
-                        <li>Вес палки</li>
-                        <li>Материал</li>
-                    </ul>
+                    <section class="slider__array">
+                        <article>
+                            <p class="slider__description">8,5 м</p>
+                            <p class="slider__subText">Длина палки</p>
+                        </article>
+                        <article>
+                            <p class="slider__description">5 кг</p>
+                            <p class="slider__subText">Вес палки</p>
+                        </article>
+                        <article>
+                            <p class="slider__description">Карбон</p>
+                            <p class="slider__subText">Материал</p>
+                        </article>
+                    </section>
                 </section>
             </section>
             <input type="radio" name="radio" id="r2">
-            <label class="slider__lable" for="r2"></label>
+            <label class="slider__lable slider__lable--second" for="r2"></label>
             <section class="slider__slide">
-                <img class="slider__img" src="./asset/slider-1.png.png" alt="slide1">
-                <section id="sl1" class="slider__right">
-                    <p class="slider__text1">Делай селфи,<br>как Бен Стиллер!</p>
-                    <p class="slider__text2">
-                        Самая длинная палка для селфи доступна в нашем магазине.
-                        Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
+                <img class="slider__img" src="./asset/slider-2.png.png" alt="slide2" style="width: 345px; height: 480px;">
+                <section class="slider__right">
+                    <p class="slider__title">Худеем правильно!</p>
+                    <p class="slider__info">
+                        Мотивирующие фитнес-браслеты помогут найти в себе силы 
+                        не пропускать занятия и соблюдать диету.
                     </p>
                     <a class="slider__link" href="#">Подробнее</a>
-                    <ul class="slider__ul1">
-                        <li>8,5 м</li>
-                        <li>5 кг</li>
-                        <li>Карбон</li>
-                    </ul>
-                    <ul class="slider__ul2">
-                        <li>Длина палки</li>
-                        <li>Вес палки</li>
-                        <li>Материал</li>
-                    </ul>
+                    <article class="slider__textWrapper">
+                        <p class="slider__description slider__description--txt">48 часов</p>
+                        <p class="slider__subText slider__description--txt">Без подзарядки</p> 
+                    </article>
                 </section>
             </section>
             <input type="radio" name="radio" id="r3">
-            <label class="slider__lable" for="r3"></label>
+            <label class="slider__lable slider__lable--third" for="r3"></label>
             <section class="slider__slide">
-                <img class="slider__img" src="./asset/slider-1.png.png" alt="slide1">
-                <section id="sl1" class="slider__right">
-                    <p class="slider__text1">Делай селфи,<br>как Бен Стиллер!</p>
-                    <p class="slider__text2">
-                        Самая длинная палка для селфи доступна в нашем магазине.
-                        Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
+                <img class="slider__img" src="./asset/slider-3.png.png" alt="slide3" style="width: 450px; height: 556px;">
+                <section class="slider__right">
+                    <p class="slider__title">Порхает как бабочка, жалит как пчела!</p>
+                    <p class="slider__info">
+                        Этот обычный, на первый взгляд, квадрокоптер оснащен 
+                        мощным лазером, замаскированным под стандартную камеру.
                     </p>
                     <a class="slider__link" href="#">Подробнее</a>
-                    <ul class="slider__ul1">
-                        <li>8,5 м</li>
-                        <li>5 кг</li>
-                        <li>Карбон</li>
-                    </ul>
-                    <ul class="slider__ul2">
-                        <li>Длина палки</li>
-                        <li>Вес палки</li>
-                        <li>Материал</li>
-                    </ul>
+                    <section class="slider__array">
+                        <article>
+                            <p class="slider__description">800 м</p>
+                            <p class="slider__subText">Дальность полета</p>
+                        </article>
+                        <article>
+                            <p class="slider__description">50 м</p>
+                            <p class="slider__subText">Радиус поражения</p>
+                        </article>
+                    </section>
                 </section>
             </section>
         </section>
         <ul class="list">
-            <li class="list__li"><img class="list__img" src="./asset/popular-1.png" alt="1"></li>
-            <li class="list__li"><img class="list__img" src="./asset/popular-2.png" alt="2"></li>
-            <li class="list__li"><img class="list__img" src="./asset/popular-3.png" alt="3"></li>
-            <li class="list__li"><img class="list__img" src="./asset/popular-4.png" alt="4"></li>
-            <li class="list__li"><img class="list__img" src="./asset/popular-5.png" alt="5"></li>
-            <li class="list__li"><img class="list__img" src="./asset/poppular-6.png" alt="6"></li>
-        </ul>
-        <ul class="list">
-            <li class="list__l"><p class="list__text">Виртуальная реальность</p></li>
-            <li class="list__l"><p class="list__text">Моноподы для селфи</p></li>
-            <li class="list__l"><p class="list__text">Экшин-камеры</p></li>
-            <li class="list__l"><p class="list__text">Фитнес-браслеты</p></li>
-            <li class="list__l"><p class="list__text">Умные часы</p></li>
-            <li class="list__l"><p class="list__text">Квадрокоптеры</p></li>
+            <li class="list__li">
+                <img class="list__img" src="./asset/popular-1.png" alt="1">
+                <p class="list__text">Виртуальная реальность</p>
+            </li>
+            <li class="list__li">
+                <img class="list__img" src="./asset/popular-2.png" alt="2">
+                <p class="list__text">Моноподы для селфи</p>
+            </li>
+            <li class="list__li">
+                <img class="list__img" src="./asset/popular-3.png" alt="3">
+                <p class="list__text">Экшин-камеры</p>
+            </li>
+            <li class="list__li">
+                <img class="list__img" src="./asset/popular-4.png" alt="4">
+                <p class="list__text">Фитнес-браслеты</p>
+            </li>
+            <li class="list__li">
+                <img class="list__img" src="./asset/popular-5.png" alt="5">
+                <p class="list__text">Умные часы</p>
+            </li>
+            <li class="list__li">
+                <img class="list__img" src="./asset/poppular-6.png" alt="6">
+                <p class="list__text">Квадрокоптеры</p>
+            </li>
         </ul>
         <section class="delivery">
             <section class="delivery__left">
@@ -167,25 +175,25 @@
             <div class="brands__picture brands__picture--4"></div>
         </section>
         <section class="info">
-            <ul class="info__aboutUs">
-                <li class="info__li"><p class="info__text">О нас</p></li>
-                <li class="info__li"><p class="info__text1">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p></li>
-                <li class="info__li"><p class="info__text1">Мы можем доставить ваш товар в самые отдаленные точки США! DEVICE работает со многими транспортными компаниями:</p></li>
-                <li class="info__li">
-                    <ul class="aboutUs__ul">
+            <section class="info__aboutUs">
+                <p class="info__title">О нас</p>
+                <p class="info__text">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
+                <p class="info__text">Мы можем доставить ваш товар в самые отдаленные точки США! DEVICE работает со многими транспортными компаниями:</p>
+                <section class="info__wrapper">
+                    <ul class="aboutUs__list">
                         <li class="aboutUs__li"><p>Деловые линии</p></li>
                         <li class="aboutUs__li"><p>Автотрейдинг</p></li>
                         <li class="aboutUs__li"><p>Херня</p></li>
                     </ul>
-                </li>
-                <li class="info__li info__li--link"><a class="info__link" href="#">Подробнее о нас</a></li>
-            </ul>
-            <ul class="info__contacts">
-                <li class="info__li"><p class="info__text">Контакты</p></li>
-                <li class="info__li"><p class="info__text1">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p></li>
-                <li class="info__li info__li--map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20309.075323923767!2d30.4721233!3d50.4851493!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce51aae24dfb%3A0xced7bb8a7fa60d7d!2zTWNEb25hbGTigJlz!5e0!3m2!1sru!2sua!4v1689432717218!5m2!1sru!2sua" width="560" height="222" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></li>
-                <li class="info__li info__li--link info__li--position"><a class="info__link" href="#">Напишите нам</a></li>
-            </ul>
+                </section>
+                <article class="info__wrapper info__wrapper--link"><a class="info__link" href="#">Подробнее о нас</a></article>
+            </section>
+            <section class="info__contacts">
+                <p class="info__title">Контакты</p>
+                <p class="info__text">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
+                <iframe class="info__map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20309.075323923767!2d30.4721233!3d50.4851493!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce51aae24dfb%3A0xced7bb8a7fa60d7d!2zTWNEb25hbGTigJlz!5e0!3m2!1sru!2sua!4v1689432717218!5m2!1sru!2sua" width="560" height="222" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <article class="info__wrapper info__wrapper--link info__wrapper--position"><a class="info__link" href="#">Напишите нам</a></article>
+            </section>
         </section> 
     </section>
     <footer class="footer">

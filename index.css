@@ -233,20 +233,12 @@
     z-index: 3;
 }
 
-.bar__ul1 {
+.bar__array {
     display: flex;
-    width: 580px;
-    position: relative;
-    z-index: 4;
+    width: 580px;  
 }
 
-.bar__ul2 {
-    display: flex;
-    width: 580px;
-    padding-left: 0;
-}
-
-.bar__li1 {
+.bar__catalogue {
     display: flex;
     flex-direction: column;
     margin-left: 15px;
@@ -264,25 +256,25 @@
     font-family: "Gilroy";
 }
 
-.bar__li4 {
+.bar__contacts {
     list-style-type: none;
     margin-left: 80px;
 }
 
-.bar__li2 {
+.bar__delivery {
     list-style-type: none;
 }
 
-.bar__li3 {
+.bar__guarantee {
     list-style-type: none;
     margin-left: 30px;
 }
 
-.bar__li2:hover, .bar__li3:hover, .bar__li4:hover {
+.bar__delivery:hover, .bar__guarantee:hover, .bar__contacts:hover {
     opacity: .6;
 }
 
-.bar__li2:active, .bar__li3:active, .bar__li4:active {
+.bar__delivery:active, .bar__guarantee:active, .bar__contacts:active {
     opacity: .3;
 }
 
@@ -297,11 +289,11 @@
     font-family: "Gilroy";
 }
 
-.bar__li a:hover {
+.bar__catalogue a:hover {
     opacity: .6;
 }
 
-.bar__li a:active {
+.bar__catalogue a:active {
     opacity: .3;
 }
 
@@ -347,11 +339,11 @@
     background-color: #f0c52e;  
 }
 
-.menu__ul1, .menu__ul2, .menu__ul3 li {
+.menu__array li {
     list-style-type: none;
 }
 
-.menu__ul1 {
+.menu__array--position {
     margin-left: 0;
     padding-left: 0;
 }
@@ -549,7 +541,7 @@
     opacity: 1;
 }
 
-.footer__bottomLink:active {
+.footer__bottomLink:active, .footer__bottomLogo:active {
     opacity: .3;
 }
 
@@ -557,9 +549,6 @@
     opacity: .6;
 }
 
-.footer__bottomLogo:active {
-    opacity: .3;
-}
 /*----------footer end--------*/
 
 /*----------сontent start--------*/
@@ -596,7 +585,7 @@ input[name=radio] {
 }
 
 .slider__slide {
-    display: flex;
+    display: none;
     justify-content: space-between;
     align-items: start;
     height: 420px;
@@ -609,8 +598,8 @@ input[name=radio] {
     align-items: start;
 }
 
-.slider__text1 {
-    width: 400px;
+.slider__title {
+    width: 5cap;
     height: 44px;
     font-size: 47px;
     letter-spacing: 0px;
@@ -620,7 +609,7 @@ input[name=radio] {
     font-family: "Gilroy";
 }
 
-.slider__text2 {
+.slider__info {
     margin-top: 30px;
     width: 557px;
     height: 69px;
@@ -645,7 +634,7 @@ input[name=radio] {
     text-align: center;
 }
 
-.slider__ul1, .slider__ul2 {
+.slider__array {
     display: flex;
     justify-content: space-between;
     margin-left: 0;
@@ -654,23 +643,32 @@ input[name=radio] {
     align-items: start;
 }
 
-.slider__ul1 li {
-    width: 80px;
-    list-style-type: none;
+.slider__textWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 0;
+    padding-left: 0;
+    align-items: start;
+}
+
+.slider__description {
+    width: 100px;
     font-size: 36px;
-    letter-spacing: 0px;
-    line-height: 48px;
     color: #000000;
     font-weight: 300;
     font-family: "Gilroy";
 }
 
-.slider__ul2 li{
+.slider__description--txt {
+    width: 300px;
+    padding: 0;
+    margin: 0;
+}
+
+.slider__subText {
     width: 80px;
-    list-style-type: none;
     font-size: 13px;
-    letter-spacing: 0px;
-    line-height: 20px;
     color: #464646;
     font-weight: 300;
     font-family: "Open Sans";
@@ -681,7 +679,16 @@ input[name=radio] {
     margin-left: 20px;
     height: 20px;
     position: absolute;
-    
+    right: 30px;
+    top: 300px;
+}
+
+.slider__lable--second {
+    right: 60px;
+}
+
+.slider__lable--third {
+    right: 90px;
 }
   
 .slider__lable::before{
@@ -704,6 +711,10 @@ input:checked + .slider__lable::after{
     border-radius: 50px;
 }
 
+input:checked +.slider__lable + .slider__slide {
+    display: flex;
+}
+
 /*----------slider end--------*/
 
 .list, .brands {
@@ -721,22 +732,12 @@ input:checked + .slider__lable::after{
     list-style-type: none;
     width: 160px;
     height: 160px;
-    background-color: #f0c52e;
+    background-color: rgba(240, 197, 46, .5);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.list__li:not([list__img]) {
-    opacity: .5;
-}
-
-.list__l {
-    list-style-type: none;
-    width: 160px;
-    display: flex;
-    align-items: start;
-    justify-content: start;
+    position: relative;
 }
 
 .list__text {
@@ -748,6 +749,9 @@ input:checked + .slider__lable::after{
     color: #000000;
     font-weight: 800;
     font-family: "Gilroy";
+    position: absolute;
+    left: 0;
+    top: 170px;
 }
 
 .brands--position {
@@ -793,6 +797,7 @@ input:checked + .slider__lable::after{
 }
 
 .delivery {
+    margin-top: 150px;
     background-color: #e5e5e5;
     width: 1445px;
     height: 288px;
@@ -902,11 +907,7 @@ input:checked + .slider__lable::after{
     padding-left: 0;
 }
 
-.info__aboutUs li, .info__contacts li {
-    list-style-type: none;
-}
-
-.info__text {
+.info__title {
     font-size: 47px;
     letter-spacing: 0px;
     line-height: 48px;
@@ -917,7 +918,7 @@ input:checked + .slider__lable::after{
     
 }
 
-.info__text::before {
+.info__title::before {
     content: " ";
     width: 80px;
     height: 7px;
@@ -926,7 +927,7 @@ input:checked + .slider__lable::after{
     bottom: 100px;
 }
 
-.info__text1 {
+.info__text {
     margin-top: 20px;
     width: 562px;
     height: 88px;
@@ -937,7 +938,7 @@ input:checked + .slider__lable::after{
     font-family: "Open Sans";
 }
 
-.aboutUs__ul {
+.aboutUs__list {
     margin-top: 0;
     padding-left: 0;
     display: flex;
@@ -967,11 +968,7 @@ input:checked + .slider__lable::after{
     top: 15px;
 }
 
-.info__li--map {
-    margin-top: 30px;
-}
-
-.info__li--link {
+.info__wrapper--link {
     margin-top: 83px;
     background-color: #f0c52e;
     width: 260px;
@@ -992,8 +989,12 @@ input:checked + .slider__lable::after{
     font-family: "Gilroy";
 }
 
-.info__li--position {
+.info__wrapper--position {
     margin-top: 97px;
+}
+
+.info__map {
+    margin-top: 30px;
 }
 
 
