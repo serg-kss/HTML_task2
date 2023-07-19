@@ -64,112 +64,157 @@
                 <li class="head__li"><a href="#">Моноподы для селфи</a></li>
             </ul>
         </section>
-        <section class="filter">
-            <section class="filter__container">
-                <p class="filter__text">Сортировка:</p>
-                <ul class="filter__ul">
-                    <li class="filter__li"><a href="#">По цене</a></li>
-                    <li class="filter__li"><a href="#">По типу</a></li>
-                    <li class="filter__li"><a href="#">По популярности</a></li>
-                </ul>
-            </section>
-            <section class="filter__containerImg">
-                <img src="./asset/icon-up.png" alt="up">
-                <img src="./asset/icon-down.png" alt="down">
-            </section>
-        </section>
+
         <section class="main">
-            <section>
-                <form class="main__form">
-                    <p class="filter__text filter__text--position">Фильтр:</p>
-                    <p class="form__text form__text--position">Стоимость:</p>
-                    <section class="amount">
-                        <section class="amount__dots">
-                            <div class="pointer"></div>
-                            <div class="line"></div>
-                            <div class="pointer"></div>
-                        </section>
-                        <section class="amount__text">
-                            <label class="amount__lable" for="number1">от</label>
-                            <input class="amount__input" type="number" name="number" id="number1" placeholder="0">
-                            <label class="amount__lable amount__lable--position" for="number2">до</label>
-                            <input class="amount__input" type="number" name="number" id="number2" placeholder="5000">
-                        <section>
+            <form class="main__form">
+                <p class="filter__text filter__text--position">Фильтр:</p>
+                <p class="form__text form__text--position">Стоимость:</p>
+                <section class="amount">
+                    <section class="amount__dots">
+                        <div class="pointer"></div>
+                        <div class="line"></div>
+                        <div class="pointer"></div>
+                    </section> 
+                </section>
+                <section class="form__container">
+                    <p class="form__text">Цвет:</p>
+                    <section class="colors">
+                        <fieldset>
+                            <input type="checkbox" name="checkbox" id="checkbox1">
+                            <label class="form__lable form__lable--checkbox" for="checkbox1">Черный</label>
+                        </fieldset>
+                        <fieldset>
+                            <input type="checkbox" name="checkbox" id="checkbox2">
+                            <label class="form__lable form__lable--checkbox" for="checkbox2">Белый</label>
+                        </fieldset>
+                        <fieldset>
+                            <input type="checkbox" name="checkbox" id="checkbox3">
+                            <label class="form__lable form__lable--checkbox" for="checkbox3">Синий</label>
+                        </fieldset>
+                        <fieldset>
+                            <input type="checkbox" name="checkbox" id="checkbox4">
+                            <label class="form__lable form__lable--checkbox" for="checkbox4">Красный</label>
+                        </fieldset>
+                        <fieldset>
+                            <input type="checkbox" name="checkbox" id="checkbox5">
+                            <label class="form__lable form__lable--checkbox" for="checkbox5">Розовый</label>
+                        </fieldset>
                     </section>
-                    </section>
-                    <section class="form__container">
-                        <p class="form__text">Цвет:</p>
-                        <section class="colors">
-                            <fieldset>
-                                <input type="checkbox" name="checkbox" id="checkbox1">
-                                <label class="form__lable form__lable--checkbox" for="checkbox1">Черный</label>
-                            </fieldset>
-                            <fieldset>
-                                <input type="checkbox" name="checkbox" id="checkbox2">
-                                <label class="form__lable form__lable--checkbox" for="checkbox2">Белый</label>
-                            </fieldset>
-                            <fieldset>
-                                <input type="checkbox" name="checkbox" id="checkbox3">
-                                <label class="form__lable form__lable--checkbox" for="checkbox3">Синий</label>
-                            </fieldset>
-                            <fieldset>
-                                <input type="checkbox" name="checkbox" id="checkbox4">
-                                <label class="form__lable form__lable--checkbox" for="checkbox4">Красный</label>
-                            </fieldset>
-                            <fieldset>
-                                <input type="checkbox" name="checkbox" id="checkbox5">
-                                <label class="form__lable form__lable--checkbox" for="checkbox5">Розовый</label>
-                            </fieldset>
-                        </section>
-                        <p class="form__text">Bluetooth</p>
-                        <section class="bluetooth">
-                            <fieldset>
-                                <input type="radio" name="radio" id="radio1">
-                                <label class="form__lable form__lable--radio" for="radio1">Есть</label>
-                            </fieldset>
-                            <fieldset>
-                                <input type="radio" name="radio" id="radio2">
-                                <label class="form__lable form__lable--radio" for="radio2">Нет</label>
-                            </fieldset>
-                        </section>
+                    <p class="form__text">Bluetooth</p>
+                    <section class="bluetooth">
+                        <fieldset>
+                            <input type="radio" name="radio" id="radio1">
+                            <label class="form__lable form__lable--radio" for="radio1">Есть</label>
+                        </fieldset>
+                        <fieldset>
+                            <input type="radio" name="radio" id="radio2">
+                            <label class="form__lable form__lable--radio" for="radio2">Нет</label>
+                        </fieldset>
                     </section>
                     <button class="form__btn" type="submit">Показать</button>
-                </form>
-            </section>
-            <section class="cards">
-                <section class="cards__container">
-                    <section class="card">
-                        <img class="card__img" src="./asset/item-1.jpg.png" alt="pic1">
-                        <article class="card__container">
-                            <p class="card__title"></p>
-                            <p class="card__price"></p>
-                        </article>
+                </section>
+            </form>
+            <section class="shop">
+                <section class="filter">
+                    <section class="filter__container">
+                        <p class="filter__text">Сортировка:</p>
+                        <ul class="filter__ul">
+                            <li class="filter__li"><a href="#">По цене</a></li>
+                            <li class="filter__li"><a href="#">По типу</a></li>
+                            <li class="filter__li"><a href="#">По популярности</a></li>
+                        </ul>
                     </section>
-                    <section class="card">
-                        <img class="card__img" src="./asset/item-2.jpg.png" alt="pic2">
-                        <article class="card__container">
-                            <p class="card__title"></p>
-                            <p class="card__price"></p>
-                        </article>
-                    </section>
-                    <section class="card">
-                        <img class="card__img" src="./asset/item-3.jpg.png" alt="pic3">
-                        <article class="card__container">
-                            <p class="card__title"></p>
-                            <p class="card__price"></p>
-                        </article>
-                    </section>
-                    <section class="card">
-                        <img class="card__img" src="./asset/item-4.jpg.png" alt="pic4">
-                        <article class="card__container">
-                            <p class="card__title"></p>
-                            <p class="card__price"></p>
-                        </article>
+                    <section class="filter__containerImg">
+                        <img src="./asset/icon-up.png" alt="up">
+                        <img src="./asset/icon-down.png" alt="down">
                     </section>
                 </section>
-                <section class="pagination"></section>
+                <section class="cards">
+                    <section class="cards__container">
+                        <section class="card">
+                            <img id="pic1" class="card__img" src="./asset/item-1.jpg.png" alt="pic1">
+                            <article id="cart1" class="card__toCart">
+                                <a class="toCart__link form__btn" href="#">в корзину</a>
+                                <a class="card__link" href="#">добавить в сравнение</a>
+                            </article>
+                            <article class="card__container">
+                                <p class="card__title">Любительская селфи-палка</p>
+                                <p class="card__price">555 UDS</p>
+                            </article>
+                        </section>
+                        <section class="card">
+                            <img id="pic2" class="card__img" src="./asset/item-2.jpg.png" alt="pic2">
+                            <article id="cart2" class="card__toCart">
+                                <a class="toCart__link form__btn" href="#">в корзину</a>
+                                <a class="card__link" href="#">добавить в сравнение</a>
+                            </article>
+                            <article class="card__container">
+                                <p class="card__title">Профессиональная селфи-палка</p>
+                                <p class="card__price">777 USD</p>
+                            </article>  
+                        </section>
+                        <section class="card">
+                            <img id="pic3" class="card__img" src="./asset/item-3.jpg.png" alt="pic3">
+                            <article id="cart3" class="card__toCart">
+                                <a class="toCart__link form__btn" href="#">в корзину</a>
+                                <a class="card__link" href="#">добавить в сравнение</a>
+                            </article>
+                            <article class="card__container">
+                                <p class="card__title">Непотопляемая селфи-палка</p>
+                                <p class="card__price">444 USD</p>
+                            </article>
+                        </section>
+                        <section class="card">
+                            <img id="pic4" class="card__img" src="./asset/item-4.jpg.png" alt="pic4">
+                            <article id="cart4" class="card__toCart">
+                                <a class="toCart__link form__btn" href="#">в корзину</a>
+                                <a class="card__link" href="#">добавить в сравнение</a>
+                            </article>
+                            <article class="card__container">
+                                <p class="card__title">Селфи-палка «Следуй за мной</p>
+                                <p class="card__price">222 USD</p>
+                            </article>
+                        </section>
+                    </section>
+                    <section class="pagination">
+                        <a class="pagination__link" href="#">назад</a>
+                        <ul class="pagination__list">
+                            <li><a class="pagination__link" href="#">1</a></li>
+                            <li><a class="pagination__link" href="#">2</a></li>
+                            <li><a class="pagination__link" href="#">3</a></li>
+                        </ul>
+                        <a  class="pagination__link"href="#">вперед</a>
+                    </section>
+                </section>
             </section>
         </section>
     </section>
+    <footer class="footer">
+        <section class="footer__top">
+            <a class="footer__link" href="#"><img class="footer__topImg" src="./asset/logo.png" alt=""></a>
+            <ul class="footer__topUl">
+                <li><a class="footer__topLink footer__topLink--1" href="#">Войти</a></li>
+                <li><a class="footer__topLink footer__topLink--2" href="#">Сравнить</a></li>
+                <li><a class="footer__topLink footer__topLink--3" href="#">Корзина</a></li>
+            </ul>
+        </section>
+        <section class="footer__mid">
+            <p class="footer__midText">New-york, Down str., 15</p>
+            <ul class="footer__midUl">
+                <li><a class="footer__midLink" href="#">Доставка</a></li>
+                <li><a class="footer__midLink" href="#">Гарантия</a></li>
+                <li><a class="footer__midLink" href="#">Контакты</a></li>
+            </ul>
+            <p class="footer__midText--right">Тел.: +8 (111) 495-95-95</p>
+        </section>
+        <section class="footer__bottom">
+            <ul class="footer__bottomUl">
+                <li><a class="footer__bottomLink" href="#"><img src="./asset/fb-svg.png" alt="Facebook"></a></li>
+                <li><a class="footer__bottomLink" href="#"><img src="./asset/inst-svg-footer.png" alt="Instagram"></a></li>
+                <li><a class="footer__bottomLink" href="#"><img src="./asset/twitter-svg-footer.png" alt="Twitter"></a></li>
+            </ul>
+            <a class="footer__bottomLogo" href="#"><img src="./asset/logo-html-svg-footer.png" alt="SomeLogo"></a>
+        </section>
+    </footer>
 </body>
 </html>
