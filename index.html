@@ -63,7 +63,7 @@
             <section class="slider__slide">
                 <img class="slider__img" src="./asset/slider-1.png.png" alt="slide1" style="width: 384px; height: 486px;">
                 <section class="slider__right">
-                    <p class="slider__title">Делай селфи,<br>как Бен Стиллер!</p>
+                    <p class="slider__title slider__title--one">Делай селфи,<br>как Бен Стиллер!</p>
                     <p class="slider__info">
                         Самая длинная палка для селфи доступна в нашем магазине.
                         Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
@@ -90,7 +90,7 @@
             <section class="slider__slide">
                 <img class="slider__img" src="./asset/slider-2.png.png" alt="slide2" style="width: 345px; height: 480px;">
                 <section class="slider__right">
-                    <p class="slider__title">Худеем правильно!</p>
+                    <p class="slider__title slider__title--two">Худеем<br>правильно!</p>
                     <p class="slider__info">
                         Мотивирующие фитнес-браслеты помогут найти в себе силы 
                         не пропускать занятия и соблюдать диету.
@@ -98,7 +98,7 @@
                     <a class="slider__link" href="#">Подробнее</a>
                     <article class="slider__textWrapper">
                         <p class="slider__description slider__description--txt">48 часов</p>
-                        <p class="slider__subText slider__description--txt">Без подзарядки</p> 
+                        <p class="slider__subText">Без подзарядки</p> 
                     </article>
                 </section>
             </section>
@@ -107,13 +107,13 @@
             <section class="slider__slide">
                 <img class="slider__img" src="./asset/slider-3.png.png" alt="slide3" style="width: 450px; height: 556px;">
                 <section class="slider__right">
-                    <p class="slider__title">Порхает как бабочка, жалит как пчела!</p>
+                    <p class="slider__title slider__title--three">Порхает как бабочка, жалит как пчела!</p>
                     <p class="slider__info">
                         Этот обычный, на первый взгляд, квадрокоптер оснащен 
                         мощным лазером, замаскированным под стандартную камеру.
                     </p>
                     <a class="slider__link" href="#">Подробнее</a>
-                    <section class="slider__array">
+                    <section class="slider__array slider__array--slideThree">
                         <article>
                             <p class="slider__description">800 м</p>
                             <p class="slider__subText">Дальность полета</p>
@@ -128,28 +128,40 @@
         </section>
         <ul class="list">
             <li class="list__li">
-                <img class="list__img" src="./asset/popular-1.png" alt="1">
-                <p class="list__text">Виртуальная реальность</p>
+                <a class="list__text" href="#">
+                    <img class="list__img" src="./asset/popular-1.png" alt="1">
+                    <span>Виртуальная реальность</span>
+                </a>
             </li>
             <li class="list__li">
-                <img class="list__img" src="./asset/popular-2.png" alt="2">
-                <p class="list__text">Моноподы для селфи</p>
+                <a class="list__text" href="#">
+                    <img class="list__img" src="./asset/popular-2.png" alt="2">
+                    <span>Моноподы для селфи</span>
+                </a>
             </li>
             <li class="list__li">
-                <img class="list__img" src="./asset/popular-3.png" alt="3">
-                <p class="list__text">Экшин-камеры</p>
+                <a class="list__text" href="#">
+                    <img class="list__img" src="./asset/popular-3.png" alt="3">
+                    <span>Экшин-камеры</span>
+                </a>
             </li>
             <li class="list__li">
-                <img class="list__img" src="./asset/popular-4.png" alt="4">
-                <p class="list__text">Фитнес-браслеты</p>
+                <a class="list__text" href="#">
+                    <img class="list__img" src="./asset/popular-4.png" alt="4">
+                    <span>Фитнес-браслеты</span>
+                </a>
             </li>
             <li class="list__li">
-                <img class="list__img" src="./asset/popular-5.png" alt="5">
-                <p class="list__text">Умные часы</p>
+                <a class="list__text" href="#">
+                    <img class="list__img" src="./asset/popular-5.png" alt="5">
+                    <span>Умные часы</span>
+                </a>
             </li>
             <li class="list__li">
-                <img class="list__img" src="./asset/poppular-6.png" alt="6">
-                <p class="list__text">Квадрокоптеры</p>
+                <a class="list__text" href="#">
+                    <img class="list__img" src="./asset/poppular-6.png" alt="6">
+                    <span>Квадрокоптеры</span>
+                </a>
             </li>
         </ul>
         <section class="delivery">
@@ -192,7 +204,7 @@
                 <p class="info__title">Контакты</p>
                 <p class="info__text">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
                 <iframe class="info__map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20309.075323923767!2d30.4721233!3d50.4851493!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce51aae24dfb%3A0xced7bb8a7fa60d7d!2zTWNEb25hbGTigJlz!5e0!3m2!1sru!2sua!4v1689432717218!5m2!1sru!2sua" width="560" height="222" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <article class="info__wrapper info__wrapper--link info__wrapper--position"><a class="info__link" href="#">Напишите нам</a></article>
+                <article class="info__wrapper info__wrapper--link info__wrapper--position"><a class="info__link" href="#example1">Напишите нам</a></article>
             </section>
         </section> 
     </section>
@@ -215,7 +227,6 @@
             <p class="footer__midText--right">Тел.: +8 (111) 495-95-95</p>
         </section>
         <section class="footer__bottom">
-            <img src="" alt="Line">
             <ul class="footer__bottomUl">
                 <li><a class="footer__bottomLink" href="#"><img src="./asset/fb-svg.png" alt="Facebook"></a></li>
                 <li><a class="footer__bottomLink" href="#"><img src="./asset/inst-svg-footer.png" alt="Instagram"></a></li>
@@ -224,5 +235,28 @@
             <a class="footer__bottomLogo" href="#"><img src="./asset/logo-html-svg-footer.png" alt="SomeLogo"></a>
         </section>
     </footer>
+        <!--Modal Window-->
+        <section class="modal" id="example1">
+            <section class="modal__window">
+                <form class="modal__form" action="" method="post">
+                    <button class="btn__close"><a href="#close">X</a></button>
+                    <section class="modal__container">
+                        <article class="input__container">
+                            <label class="modal__label" for="name">Ваше имя:</label>
+                            <input class="fields" type="text" name="name" placeholder="  укажите имя" required value="  Имя Фамилия">
+                        </article>
+                        <article class="input__container">
+                            <label class="modal__label" for="email">Ваш email:</label>
+                            <input class="fields" type="text" name="email" placeholder="  some-emal@gmail.com">
+                        </article>
+                    </section>
+                    <section class="textArea__container">
+                        <label class="modal__label" for="textArea">Текст письма:</label>
+                        <textarea class="fields area" name="textArea" cols="30" rows="10" placeholder="  В свободной форме"></textarea>
+                        <button class="btn__submit" type="submit">Отправить</button>
+                    </section>
+                </form>
+            </section>
+        </section>
 </body>
 </html>
