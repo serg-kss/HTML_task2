@@ -29,39 +29,39 @@
             </section>
         </section>
         <section class="bar">
-            <ul class="bar__ul1">
-                <li class="bar__li1">
+            <ul class="bar__list">
+                <li class="bar__item">
                     <a href="#" class="bar__link" for="bar">Каталог товаров</a>
                     <section class="menu">
-                        <ul class="menu__ul1">
+                        <ul class="menu__list menu__list--position">
                             <li><a class="menu__link" href="#">Виртуальная реальность</a></li>
                             <li><a class="menu__link" href="#">Моноподы для селфи</a></li>
                             <li><a class="menu__link" href="#">Экшин-камеры</a></li>
                         </ul>
-                        <ul class="menu__ul2">
+                        <ul class="menu__list">
                             <li><a class="menu__link" href="#">Фитнес-браслеты</a></li>
                             <li><a class="menu__link" href="#">Умные часы</a></li>
                         </ul>
-                        <ul class="menu__ul3">
+                        <ul class="menu__list">
                             <li><a class="menu__link" href="#">Квадрокоптеры</a></li>
                         </ul>
                     </section>
                 </li>
             </ul>
-            <ul class="bar__ul2">
-                <li class="bar__li2"><a class="bar__links" href="#">Доставка</a></li>
-                <li class="bar__li3"><a class="bar__links" href="#">Гарантия</a></li>
-                <li class="bar__li4"><a class="bar__links" href="#">Контакты</a></li>
+            <ul class="bar__list bar__list--position">
+                <li class="bar__delivery"><a class="bar__links" href="#">Доставка</a></li>
+                <li class="bar__guarantee"><a class="bar__links" href="#">Гарантия</a></li>
+                <li class="bar__contacts"><a class="bar__links" href="#">Контакты</a></li>
             </ul>
         </section>
     </header>
     <section class="content">
         <section class="head">
             <p class="head__text">Моноподы для селфи</p>
-            <ul class="head__ul">
-                <li class="head__li"><a href="#">Главная</a></li>
-                <li class="head__li"><a href="#">Каталог товаров</a></li>
-                <li class="head__li"><a href="#">Моноподы для селфи</a></li>
+            <ul class="head__list">
+                <li class="head__point"><a href="#">Главная</a></li>
+                <li class="head__point"><a href="#">Каталог товаров</a></li>
+                <li class="head__point"><a href="#">Моноподы для селфи</a></li>
             </ul>
         </section>
         <section class="main">
@@ -117,63 +117,63 @@
                 <section class="filter">
                     <section class="filter__container">
                         <p class="filter__text">Сортировка:</p>
-                        <ul class="filter__ul">
-                            <li class="filter__li"><a href="#">По цене</a></li>
-                            <li class="filter__li"><a href="#">По типу</a></li>
-                            <li class="filter__li"><a href="#">По популярности</a></li>
+                        <ul class="filter__list">
+                            <li class="filter__point"><a href="#">По цене</a></li>
+                            <li class="filter__point"><a href="#">По типу</a></li>
+                            <li class="filter__point"><a href="#">По популярности</a></li>
                         </ul>
                     </section>
                     <section class="filter__containerImg">
-                        <img src="./asset/icon-up.png" alt="up">
-                        <img src="./asset/icon-down.png" alt="down">
+                        <a href="#"><img src="./asset/icon-up.png" alt="up"></a>
+                        <a href="#"><img src="./asset/icon-down.png" alt="down"></a>
                     </section>
                 </section>
                 <section class="cards">
                     <section class="cards__container">
-                        <section class="card">
-                            <img id="pic1" class="card__img" src="./asset/item-1.jpg.png" alt="pic1">
-                            <article id="cart1" class="card__toCart">
-                                <a class="toCart__link form__btn" href="#">в корзину</a>
-                                <a class="card__link" href="#">добавить в сравнение</a>
-                            </article>
+                        <section class="card" id="card1">
+                            <img class="card__img" src="./asset/item-1.jpg.png" alt="stick">
                             <article class="card__container">
                                 <p class="card__title">Любительская селфи-палка</p>
                                 <p class="card__price">555 UDS</p>
                             </article>
                         </section>
-                        <section class="card">
-                            <img id="pic2" class="card__img" src="./asset/item-2.jpg.png" alt="pic2">
-                            <article id="cart2" class="card__toCart">
-                                <a class="toCart__link form__btn" href="#">в корзину</a>
-                                <a class="card__link" href="#">добавить в сравнение</a>
-                            </article>
+                        <article id="cart1" class="card__toCart">
+                            <a class="toCart__link form__btn" href="#">в корзину</a>
+                            <a class="card__link" href="#">добавить в сравнение</a>
+                        </article>
+                        <section class="card" id="card2">
+                            <img class="card__img" src="./asset/item-2.jpg.png" alt="proff stick">
                             <article class="card__container">
                                 <p class="card__title">Профессиональная селфи-палка</p>
                                 <p class="card__price">777 USD</p>
                             </article>  
                         </section>
-                        <section class="card">
-                            <img id="pic3" class="card__img" src="./asset/item-3.jpg.png" alt="pic3">
-                            <article id="cart3" class="card__toCart">
-                                <a class="toCart__link form__btn" href="#">в корзину</a>
-                                <a class="card__link" href="#">добавить в сравнение</a>
-                            </article>
+                        <article id="cart2" class="card__toCart">
+                            <a class="toCart__link form__btn" href="#">в корзину</a>
+                            <a class="card__link" href="#">добавить в сравнение</a>
+                        </article>
+                        <section class="card" id="card3">
+                            <img class="card__img" src="./asset/item-3.jpg.png" alt="super proff stick">
                             <article class="card__container">
                                 <p class="card__title">Непотопляемая селфи-палка</p>
                                 <p class="card__price">444 USD</p>
                             </article>
                         </section>
-                        <section class="card">
-                            <img id="pic4" class="card__img" src="./asset/item-4.jpg.png" alt="pic4">
-                            <article id="cart4" class="card__toCart">
-                                <a class="toCart__link form__btn" href="#">в корзину</a>
-                                <a class="card__link" href="#">добавить в сравнение</a>
-                            </article>
+                        <article id="cart3" class="card__toCart">
+                            <a class="toCart__link form__btn" href="#">в корзину</a>
+                            <a class="card__link" href="#">добавить в сравнение</a>
+                        </article>
+                        <section class="card" id="card4">
+                            <img class="card__img" src="./asset/item-4.jpg.png" alt="stick 'follow me' ">
                             <article class="card__container">
                                 <p class="card__title">Селфи-палка «Следуй за мной</p>
                                 <p class="card__price">222 USD</p>
                             </article>
                         </section>
+                        <article id="cart4" class="card__toCart">
+                            <a class="toCart__link form__btn" href="#">в корзину</a>
+                            <a class="card__link" href="#">добавить в сравнение</a>
+                        </article>
                     </section>
                     <section class="pagination">
                         <a class="pagination__link" href="#">назад</a>
