@@ -926,7 +926,7 @@ input[name=radio]:checked ~ .form__lable--radio:hover,
     
 }
 
-.footer__top {
+.footer__nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -942,14 +942,14 @@ input[name=radio]:checked ~ .form__lable--radio:hover,
     opacity: .3;
 }
 
-.footer__topUl {
+.footer__list {
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 265px;
 }
 
-.footer__topUl li{
+.footer__list li{
     list-style-type: none;
     display: flex;
     align-items: center;
@@ -957,7 +957,7 @@ input[name=radio]:checked ~ .form__lable--radio:hover,
     position: relative;
 }
 
-.footer__topLink {
+.footer__listLink {
     text-decoration: none;
     opacity: 0.702;
     width: 100px;
@@ -969,7 +969,7 @@ input[name=radio]:checked ~ .form__lable--radio:hover,
     font-family: "Open Sans";
 }
 
-.footer__topLink--1::before {
+.footer__listLink--enter::before {
     content: " ";
     width: 12px;
     height: 12px;
@@ -980,7 +980,7 @@ input[name=radio]:checked ~ .form__lable--radio:hover,
     background-color: #f0c52e;
 }
 
-.footer__topLink--2::before {
+.footer__listLink--compare::before {
     content: " ";
     width: 12px;
     height: 12px;
@@ -991,7 +991,7 @@ input[name=radio]:checked ~ .form__lable--radio:hover,
     background-color: #f0c52e;
 }
 
-.footer__topLink--3::before {
+.footer__listLink--cart::before {
     content: " ";
     width: 12px;
     height: 12px;
@@ -1002,33 +1002,33 @@ input[name=radio]:checked ~ .form__lable--radio:hover,
     background-color: #f0c52e;
 }
 
-.footer__topLink:hover {
+.footer__listLink:hover {
     opacity: 1;
 }
 
-.footer__topLink:active {
+.footer__listLink:active {
     opacity: .3;
 }
 
-.footer__mid {
+.footer__address {
     display: flex;
     align-items: end;
     justify-content: space-between;
     width: 1160px;
 }
 
-.footer__midUl {
+.footer__listAddress {
     display: flex;
     align-items: end;
     justify-content: space-between;
     width: 530px;
 }
 
-.footer__midUl li {
+.footer__listAddress li {
     list-style-type: none;
 }
 
-.footer__midLink {
+.footer__addressLink {
     text-decoration: none;
     font-size: 18px;
     letter-spacing: 4px;
@@ -1039,15 +1039,15 @@ input[name=radio]:checked ~ .form__lable--radio:hover,
     font-family: "Gilroy";
 }
 
-.footer__midLink:hover {
+.footer__addressLink:hover {
     opacity: .6;
 }
 
-.footer__midLink:active {
+.footer__addressLink:active {
     opacity: .3;
 }
 
-.footer__midText {
+.footer__text {
     width: 261px;
     height: 22px;
     font-size: 15px;
@@ -1057,18 +1057,11 @@ input[name=radio]:checked ~ .form__lable--radio:hover,
     font-family: "Open Sans";
 }
 
-.footer__midText--right{
+.footer__text--phone{
     text-align: end;
-    width: 261px;
-    height: 22px;
-    font-size: 15px;
-    line-height: 24px;
-    color: #ffffff;
-    font-weight: 300;
-    font-family: "Open Sans";
 }
 
-.footer__bottom {
+.footer__socialLinks {
     display: flex;
     width: 1160px;
     margin-top: 50px;
@@ -1077,7 +1070,7 @@ input[name=radio]:checked ~ .form__lable--radio:hover,
     position: relative;
 }
 
-.footer__bottom::before {
+.footer__socialLinks::before {
     content: " ";
     height: 7px;
     width: 80px;
@@ -1087,26 +1080,26 @@ input[name=radio]:checked ~ .form__lable--radio:hover,
     bottom: 20px;
 }
 
-.footer__bottomUl {
+.footer__listSocialLinks {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 150px;
 }
 
-.footer__bottomUl li {
+.footer__listSocialLinks li {
     list-style-type: none;
 }
 
-.footer__bottomLink {
+.footer__socialLinksLink {
     opacity: .6;
 }
 
-.footer__bottomLink:hover {
+.footer__socialLinksLink:hover {
     opacity: 1;
 }
 
-.footer__bottomLink:active, .footer__bottomLogo:active {
+.footer__socialLinksLink:active, .footer__bottomLogo:active {
     opacity: .3;
 }
 
